@@ -29,7 +29,6 @@ Dependencies
 endpoint: http://{{ hostvars['clickhouse-01'].ansible_host }}:8123
 ```
 
-Требуется роль [clickhouse-role](https://github.com/AlekseyDrobnyi/clickhouse-role)
 
 Example Playbook
 ----------------
